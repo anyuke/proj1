@@ -1,0 +1,14 @@
+global.rootdir = __dirname;
+global.env = process.env.NODE_ENV || 'local';
+global.fs = require('fs');
+global.async = require('async');
+global.moment = require('moment');
+global.uuid = require('uuid');
+global.xml2js = require('xml2js');
+global.request = require('request');
+global.cryptoJs = require('crypto-js');
+global.logger = require('./common/logger');
+global.utils = require('./common/utils');
+global.modules = utils.loadModules(rootdir + '/modules');
+global.routes = utils.loadRoutes(rootdir + '/routes');
+logger.info('env  ', env);

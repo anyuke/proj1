@@ -1,0 +1,40 @@
+{
+  "name": "anyuke1",
+  "version": "0.0.1",
+  "description": "标准框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyuke/proj1.git"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "reposititory\u001b[D\u001b[D\u001b\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001bory"
+  ],
+  "author": "anyuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anyuke/proj1/issues"
+  },
+  "homepage": "https://github.com/anyuke/proj1#readme",
+  "devDependencies": {
+    "async": "^2.6.0",
+    "cookie-parser": "^1.4.3",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "excel-export": "^0.5.1",
+    "express": "^4.16.2",
+    "log4js": "^0.6.37",
+    "moment": "^2.20.1",
+    "node-xlsx": "^0.11.2",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.5",
+    "uuid": "^3.2.1",
+    "xml2js": "^0.4.19"
+  }
+}
