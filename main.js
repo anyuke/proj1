@@ -8,10 +8,6 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.all("/js-logger", function(req, res) {
-    logger.error("client error :%j", req.body);
-    res.end();
-});
 app.use(express.static(rootdir + '/web'));
 app.use(favicon(rootdir + '/web/images/favicon.png'));
 app.use('*', modules.common.writeLog);
@@ -24,5 +20,5 @@ app.use(function(req, res) {
     return res.redirect('/html/index.html');
 });
 app.listen(config.port, '0.0.0.0', function() {
-    logger.info('member server listening at port ' + config.port);
+    logger.info('server listening at port ' + config.port);
 });
